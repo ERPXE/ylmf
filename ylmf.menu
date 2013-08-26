@@ -1,0 +1,8 @@
+LABEL YLMFOS
+MENU LABEL ^Ylmf OS 3.0
+KERNEL er/plugins/ylmf/vmlinuz
+INITRD er/plugins/ylmf/initrd.img
+APPEND boot=casper netboot=nfs nfsroot=10.0.0.1:/tftpboot/er/shares/ylmf ramdisk_size=200000 nolock
+TEXT HELP
+                 Ylmf OS.
+ENDTEXT
